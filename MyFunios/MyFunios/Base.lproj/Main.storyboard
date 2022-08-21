@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyFunios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ProfileViewController" customModule="MyFunios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,6 +39,9 @@
                                         <color key="backgroundColor" name="FuniosColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="setFollowed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a0H-Rm-lhC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Funios Community" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psK-Bt-0SL">
                                 <rect key="frame" x="111.5" y="146" width="152.5" height="20.5"/>
@@ -127,6 +130,10 @@
                             <constraint firstItem="UGd-1e-r82" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="uYP-ss-3xh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="followedButton" destination="vte-Ob-4F7" id="aIP-ht-kbI"/>
+                        <outlet property="profileImageView" destination="UGd-1e-r82" id="snb-hF-KY4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
