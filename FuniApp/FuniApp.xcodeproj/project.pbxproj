@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8906EBE28B56AC100A90355 /* AcademyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8906EBD28B56AC100A90355 /* AcademyModel.swift */; };
+		D8906EC528B5F02700A90355 /* AcademyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8906EC328B5F02700A90355 /* AcademyTableViewCell.swift */; };
+		D8906EC628B5F02700A90355 /* AcademyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8906EC428B5F02700A90355 /* AcademyTableViewCell.xib */; };
 		D8ACDA6228B30F7800729CBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ACDA6128B30F7800729CBC /* AppDelegate.swift */; };
 		D8ACDA6428B30F7800729CBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ACDA6328B30F7800729CBC /* SceneDelegate.swift */; };
 		D8ACDA6628B30F7800729CBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ACDA6528B30F7800729CBC /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D8906EBD28B56AC100A90355 /* AcademyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyModel.swift; sourceTree = "<group>"; };
+		D8906EC328B5F02700A90355 /* AcademyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyTableViewCell.swift; sourceTree = "<group>"; };
+		D8906EC428B5F02700A90355 /* AcademyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AcademyTableViewCell.xib; sourceTree = "<group>"; };
 		D8ACDA5E28B30F7800729CBC /* FuniApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuniApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8ACDA6128B30F7800729CBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8ACDA6328B30F7800729CBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 				D8ACDA6A28B30F8200729CBC /* Assets.xcassets */,
 				D8ACDA6C28B30F8200729CBC /* LaunchScreen.storyboard */,
 				D8ACDA6F28B30F8200729CBC /* Info.plist */,
+				D8906EBD28B56AC100A90355 /* AcademyModel.swift */,
+				D8906EC328B5F02700A90355 /* AcademyTableViewCell.swift */,
+				D8906EC428B5F02700A90355 /* AcademyTableViewCell.xib */,
 			);
 			path = FuniApp;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8906EC628B5F02700A90355 /* AcademyTableViewCell.xib in Resources */,
 				D8ACDA6E28B30F8200729CBC /* LaunchScreen.storyboard in Resources */,
 				D8ACDA6B28B30F8200729CBC /* Assets.xcassets in Resources */,
 				D8ACDA6928B30F7800729CBC /* Main.storyboard in Resources */,
@@ -140,7 +150,9 @@
 			files = (
 				D8ACDA6628B30F7800729CBC /* ViewController.swift in Sources */,
 				D8ACDA6228B30F7800729CBC /* AppDelegate.swift in Sources */,
+				D8906EBE28B56AC100A90355 /* AcademyModel.swift in Sources */,
 				D8ACDA6428B30F7800729CBC /* SceneDelegate.swift in Sources */,
+				D8906EC528B5F02700A90355 /* AcademyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
